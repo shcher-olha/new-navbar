@@ -1,16 +1,35 @@
-
+import React from "react";
+import Footer from "./footer";
+import "./home.css";
 
 const Home = () => {
   return (
     <>
-    <h1>Home Page</h1>
-    <div className="container mt-5">
-      <button type="button" className="btn btn-primary mt-3">
-  Primary
-</button>
-    </div>
+      <div className="container">
+        <div className="main">
+          <div
+            className="image"
+            style={{
+              width: "100%",
+              height: "500px",
+              backgroundSize: "cover",
+              backgroundImage: `url(${require("../images/logo.jpg")})`,
+            }}
+          >
+            <p>Welcom to the world of Sushi</p>
 
-  
+            <div className="button">
+              <a href="/" className="button-order-now" title="FOR ORDER NOW">
+                Order Now
+              </a>
+              <a href="/" className="button-contact" title="Contact to us">
+                Contact me
+              </a>
+            </div>
+          </div>
+        </div>
+        <Footer />
+      </div>
     </>
   );
 };

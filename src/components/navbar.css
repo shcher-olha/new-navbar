@@ -1,26 +1,9 @@
-nav {
-  display: flex;
-  align-items: center;
-}
 
-.logo-nav {
-  text-decoration: none; /* Убираем подчеркивание у логотипа */
-}
 
-.menu-nav {
-  margin: 10px;
-  list-style-type: none; /* Убираем маркеры списка */
-  padding: 0; /* Убираем отступы у списка */
-}
 
-.menu-nav li {
-  display: inline; /* Делаем элементы списка строчными */
-  margin-right: 10px; /* Добавляем отступ между пунктами меню */
-}
 
-.menu-nav li a {
-  text-decoration: none; /* Убираем подчеркивание у ссылок */
-}
-.container-fluid {
-  margin: 10px;
-}
+
+
+
+
+
