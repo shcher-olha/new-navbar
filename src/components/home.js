@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "./footer";
 import "./home.css";
 
+
 const Home = () => {
   return (
     <>
