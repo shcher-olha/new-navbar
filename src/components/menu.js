@@ -1,5 +1,6 @@
 import React from "react";
-import "./Menu.css";
+import "./menu.css";
+import rollsImage from "../images/rolls.jpg";
 
 const Menu = () => {
   return (
@@ -8,19 +9,18 @@ const Menu = () => {
         <h1>MENU</h1>
         <h2>Rolls</h2>
       </div>
-      <div className="container-menu ms-5">
-        <div className="row mb-5">
-          <div className="col-6">
-            <img
-              src="https://hips.hearstapps.com/hmg-prod/images/rainbow-roll1-1657207643.jpg"
-              alt="Logo"
-              className="photo-rolls"
-            />
-          </div>
+      <div className="row">
+        <div className="col-6 ms-5">
+          <img src={rollsImage} alt="Rolls" className="img-fluid" />
+        </div>
+      </div>
+      <div className="row mt-5">
+        <div className="col-6 ms-5">
+          <img src={rollsImage} alt="Rolls" className="img-fluid" />
         </div>
       </div>
     </>
   );
-}
+};
 
 export default Menu;
