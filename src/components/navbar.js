@@ -70,7 +70,7 @@ const Navbar = () => {
                   Features
                 </a> */}
                 <Link to={"/menu"} className="nav-link">
-                  Menu
+                 Menu
                 </Link>
               </li>
               <li className="nav-item">
