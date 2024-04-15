@@ -1,0 +1,12 @@
+.container h1 {
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+}
+.image-rolls {
+  width: 80%;
+  height: 80%;
+}
+.text {
+  font-size: 10px;
+}
