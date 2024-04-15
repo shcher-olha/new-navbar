@@ -19,11 +19,6 @@ const Menu = () => {
           <img src={rollsImage} alt="Rolls" className="img-fluid" />
         </div>
       </div>
-      <div className="row mt-5">
-        <div className="col-6 ms-5">
-          <img src={rollsImage} alt="Rolls" className="img-fluid" />
-        </div>
-      </div>
     </>
   );
 };
