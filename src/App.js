@@ -5,7 +5,7 @@ import Contacts from "./components/contacts";
 import Menu from "./components/menu";
 import Home from "./components/home";
 
-//const Home = () => <h1>Home Page</h1>; 
+//const Home = () => <h1>Home Page</h1>;
 //если пишем эту строчку то надо убрать из меню из компонентов - home.js-это тоже самое
 
 function App() {
@@ -17,7 +17,6 @@ function App() {
         <Route path="/contacts" element={<Contacts />} />
       </Route>
     </Routes>
-
   );
 }
 
