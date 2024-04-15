@@ -1,5 +1,5 @@
 import React from "react";
-import "./menu.css"
+import "../components/menu.css"
 import rollsImage from "../images/rolls.jpg"
 
 const Menu = () => {
